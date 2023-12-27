@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Leaderboards</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f4f4f4;
+      color: white;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      background-image: radial-gradient(circle 897px at 9% 80.3%, rgba(55, 60, 245, 1) 0%, rgba(62, 23, 57, 0.90) 100.2%);
+    }
+
+    #container {
+      width: 600px;
+      height: auto;
+    }
+
+    .heading {
+      font-size: 24px;
+      color: #d4af37;
+      text-align: center;
+      margin: 20px 0;
+    }
+
+    .row {
+        padding: 1rem;
+      position: relative;
+      display: block;
+      width: 100%;
+      height: 40px;
+      border-bottom: 1px solid #AFAFAF;
+      float: left;
+    }
+
+    .name {
+      position: relative;
+      width: 75%;
+      line-height: 45px;
+      float: left;
+    }
+
+    .score {
+      position: relative;
+      width: 25%;
+      float: left;
+    }
+
+    .return-btn-container {
+      position: fixed;
+      top: 20px;
+      right: 20px;
+    }
+
+    .return-btn {
+      display: block;
+      padding: 0.7em 1em;
+      background: transparent;
+      outline: none;
+      border: 1px solid #d4af37;
+      color: #d4af37;
+      letter-spacing: 0.1em;
+      font-family: monospace;
+      font-size: 17px;
+      font-weight: bold;
+      cursor: pointer;
+    }
+    a{
+      text-decoration: none;
+    }
+  </style>
+</head>
+<body>
+  <div class="return-btn-container">
+    <a href="index.html">
+      <button class="return-btn">Return to Homepage</button>
+    </a>
+  </div>
+
+  <div id="container">
+    <div class="heading">Leaderboard</div>
+
+    <div class="row">
+      <div class="name">Player1</div>
+      <div class="score">430</div>
+    </div>
+
+    <div class="row">
+      <div class="name">Player2</div>
+      <div class="score">580</div>
+    </div>
+
+    <div class="row">
+      <div class="name">Player3</div>
+      <div class="score">310</div>
+    </div>
+
+    <div class="row">
+      <div class="name">Player4</div>
+      <div class="score">640</div>
+    </div>
+
+    <div class="row">
+      <div class="name">Player5</div>
+      <div class="score">495</div>
+    </div>
+  </div>
+</body>
+</html>
